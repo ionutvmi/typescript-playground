@@ -5,8 +5,8 @@
     "main": "index.js",
     "private": true,
     "scripts": {
-        "hello-world": "ts-node hello-world",
-        "start": "ts-node -T hello-world",
+        "dev": "ts-node hello-world",
+        "start": "ts-node --transpileOnly hello-world",
         "test": "npm run test --workspaces --if-present"
     },
     "keywords": [],

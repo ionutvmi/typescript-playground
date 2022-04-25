@@ -23,3 +23,18 @@ npm run test -w @tsplayground/my-advanced-lib
 ```
 
 The node_modules foler should exist only in the workspace root.
+
+# Running the application
+
+```
+# Ensure that you are in the root of the workspace
+cd /typescript-playground
+
+npm install
+
+# run with type checking
+npm run dev
+
+# run without type checking
+npm start
+```

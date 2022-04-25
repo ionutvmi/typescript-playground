@@ -1,4 +1,4 @@
-# Typescrit playground
+# Typescript playground
 
 Porject used while learning typescript.
 

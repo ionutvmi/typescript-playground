@@ -2,11 +2,16 @@
     "name": "my-advanced-lib",
     "version": "1.0.0",
     "description": "",
-    "main": "main.ts",
+    "main": "src/main.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha",
+        "test:watch": "mocha --watch"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC"
+    "author": "Mihai Ionut Vilcu",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/mocha": "9.1.1",
+        "mocha": "9.2.2"
+    }
 }

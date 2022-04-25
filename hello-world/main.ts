@@ -1,7 +1,7 @@
 import { add } from "./math";
 
 // this is a local package which is nice
-import { multiply } from "my-advanced-lib";
+import { multiply } from "@tsplayground/my-advanced-lib";
 
 console.log("Hello from a typesafe world", add(11, 15));
 

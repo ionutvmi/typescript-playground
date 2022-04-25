@@ -1,5 +1,5 @@
 {
-    "name": "my-advanced-lib",
+    "name": "@tsplayground/my-advanced-lib",
     "version": "1.0.0",
     "description": "",
     "main": "src/main.ts",

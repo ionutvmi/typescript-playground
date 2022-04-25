@@ -8,6 +8,7 @@
 *.swp
 
 # Build
+dist/
 
 # API keys and secrets
 .env

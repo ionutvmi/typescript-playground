@@ -6,6 +6,7 @@
     "private": true,
     "scripts": {
         "hello-world": "ts-node hello-world",
+        "start": "ts-node -T hello-world",
         "test": "npm run test --workspaces --if-present"
     },
     "keywords": [],

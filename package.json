@@ -5,7 +5,7 @@
     "main": "index.js",
     "private": true,
     "scripts": {
-        "dev": "ts-node hello-world",
+        "dev": "ts-node learning-typescript",
         "start": "ts-node --transpileOnly hello-world",
         "test": "npm run test --workspaces --if-present"
     },

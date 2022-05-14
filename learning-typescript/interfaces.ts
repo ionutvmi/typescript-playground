@@ -15,7 +15,7 @@ function printPost(post: ReadOnlyPost) {
     console.log(post.text);
 }
 
-interface Readable {
+export interface Readable {
     read: () => string;
     // alternative syntax
     hasContent(): boolean; // i like this more
@@ -64,3 +64,4 @@ interface Setting {
 interface Window {
     myGlobalLib: any;
 }
+export {};
